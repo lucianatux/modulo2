@@ -1,0 +1,119 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+*{
+  font-family: 'Marvel', sans-serif;
+  font-size: 25px;
+}
+
+/*=========================HEADER================================*/
+
+.logos{
+  padding: 20px;
+}
+
+.banner {
+  height: 100vh;
+  background-image: linear-gradient(120deg, rgba(0, 0, 0, 0.521) 0%, #470a6bd2 100%),
+    url(../imagenes/banner12.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  text-shadow: 2px 2px 3px black;
+}
+
+
+.titulo {
+  font-size: 100px;
+  color: white;
+  font-weight: 1000;
+}
+
+.titulo2 {
+  font-weight: 300;
+  font-size: 50px;
+}
+
+.texto {
+  padding-top: 150px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+
+/*=========================SECCIONES================================*/
+
+.contenedor {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 0;
+  align-items: center;
+}
+
+.subtitulo {
+  background-color:lightgrey;
+  text-align: center;
+  font-weight: 400;
+  color: white;
+  text-shadow: 2px 2px 3px black;
+  margin-bottom: 40px;
+  margin-top: 80px;
+  font-size: 60px;
+  font-family: 'Marvel', sans-serif;
+}
+
+/*=========================ACERCA DE================================*/
+
+.cont-acerca-de img {
+  width: 25%;
+  border-radius: 50%;
+  float: left;
+  padding: 2em;
+}
+
+.descripcion {
+  text-align: left;
+  padding: 2em;
+}
+
+/*=========================EDUCACION================================*/
+
+.col-sm img{
+  width: 10rem;
+}
+
+/*=========================EXPERIENCIA================================*/
+
+/*=========================PROYECTOS================================*/
+
+/*=========================HABILIDADES================================*/
+
+
+/*=========================FOOTER================================*/
+
+#contacto{
+  padding: 0;
+}
+
+footer {
+  background: black;
+  min-height: 300px;;
+}
+footer p{
+  color:#f3f3f3;
+  text-align:center;
+}
+#iconos img  {
+  font-size: 20px;
+  padding: 2em 6px;
+  color:#f3f3f3;
+  margin: 1em;
+}
+
